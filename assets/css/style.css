@@ -1,0 +1,59 @@
+*{
+	font-family: 'Architects Daughter', cursive;
+	color: purple;
+}
+.title{
+	font-size: 60px;
+	font-weight: bolder;
+}
+body{
+	background-image: url("../images/background.jpeg");
+}
+.container{
+	margin-top: 50px;
+	background-color: pink;
+	border: 5px double purple;
+	height: 550px
+}
+#btn-start{
+	margin-top: 100px;
+	height: 50px;
+	font-weight: bold;
+}
+#question{
+	font-size: 24px;
+}
+.buttons{
+	margin-top: 15px;
+	display: block;
+}
+#btn-start, #btn1, #btn2, #btn3, #btn4{
+	background-color: white;
+	width: 500px;
+	font-size: 20px;
+	margin-bottom: 15px
+}
+hr{
+	border-color: purple
+}
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
+	cursor: pointer;
+	background-color: blue;
+}
+#btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus{
+	outline: 0;
+}
+#timer{
+	margin-top: 50px;
+}
+#timer p{
+	font-size: 30px;
+	color: red;
+}
+#answer{
+	margin-top: 10px;
+}
+#answer-text{
+	font-size: 24px;
+	color: red;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--Bootstrap CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<div id="trivia-container" class="container">
+	<h1 class="title text-center">Fur Face Trivia</h1>
+	<hr>
+		<div id="start" class="row text-center col-sm-12">
+			<button id="btn-start">Click to Start</button>
+		</div>
+	<main>			
+		<div class="row text-center col-sm-12">
+			<p id="question">This is where the question will be</p>
+		</div>				
+		<div class="row buttons text-center col-sm-12">
+			<div class="button col-sm-12"><button id="btn1" value="1" data-id="choice1"></button></div>
+			<div class="button col-sm-12"><button id="btn2" value="2" data-id="choice2"></button></div>
+			<div class="button col-sm-12"><button id="btn3" value="3" data-id="choice3"></button></div>
+			<div class="button col-sm-12"><button id="btn4" value="4" data-id="choice4"></button></div>
+		</div>
+		<div id="answer" class="row col-sm-12 text-center">
+			<p id="answer-text"></p>
+			<img id="answer-image" class="img-rounded" src="">
+		</div>
+		<div id="timer" class="row text-center col-sm-12">
+			<p id="time-remaining">Time Remaining</p>
+		</div>
+	</main>												
+	</div>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+</html>
