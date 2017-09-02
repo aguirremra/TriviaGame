@@ -5,55 +5,69 @@
 .title{
 	font-size: 60px;
 	font-weight: bolder;
+	font-family: 'Architects Daughter', cursive;
 }
 body{
 	background-image: url("../images/background.jpeg");
 }
 .container{
 	margin-top: 50px;
-	background-color: pink;
+	background-color: mistyrose;
 	border: 5px double purple;
-	height: 550px
+	height: 575px;
+}
+hr{
+	border-color: purple
 }
 #btn-start{
-	margin-top: 100px;
+	margin-top: 125px;
 	height: 50px;
 	font-weight: bold;
 }
-#question{
+#btn-restart{
+	margin-top: 50px;
+	height: 50px;
+	font-weight: bold;
+}
+#question, #gameover{
 	font-size: 24px;
 }
 .buttons{
 	margin-top: 15px;
 	display: block;
 }
-#btn-start, #btn1, #btn2, #btn3, #btn4{
+#btn-start, #btn-restart, #btn1, #btn2, #btn3, #btn4{
 	background-color: white;
 	width: 500px;
 	font-size: 20px;
-	margin-bottom: 15px
+	margin-bottom: 15px;
+	border-radius: 10px;
 }
-hr{
-	border-color: purple
-}
-#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
+#btn-start:hover, #btn-restart:hover, #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover{
 	cursor: pointer;
 	background-color: blue;
 }
-#btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus{
+#btn-start:focus, #btn-restart:focus, #btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus{
 	outline: 0;
 }
 #timer{
-	margin-top: 50px;
+	margin-top: 25px;
 }
 #timer p{
 	font-size: 30px;
-	color: red;
+	color: blue;
 }
 #answer{
 	margin-top: 10px;
 }
-#answer-text{
+#answer-text, #answer-desc{
 	font-size: 24px;
-	color: red;
+	color: blue;
+}
+#answer-image{
+	border: 2px solid grey;
+}
+#game-over{
+	font-size: 32px;
+	font-weight: bolder;
 }

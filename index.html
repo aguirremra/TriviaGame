@@ -13,30 +13,38 @@
 </head>
 <body>
 	<div id="trivia-container" class="container">
-	<h1 class="title text-center">Fur Face Trivia</h1>
+	<h1 class="title text-center">Doggie Trivia</h1>
 	<hr>
-		<div id="start" class="row text-center col-sm-12">
-			<button id="btn-start">Click to Start</button>
-		</div>
+	<div id="start" class="row text-center col-sm-12">
+		<button id="btn-start">Click to Start</button>
+	</div>
 	<main>			
 		<div class="row text-center col-sm-12">
 			<p id="question">This is where the question will be</p>
 		</div>				
 		<div class="row buttons text-center col-sm-12">
-			<div class="button col-sm-12"><button id="btn1" value="1" data-id="choice1"></button></div>
-			<div class="button col-sm-12"><button id="btn2" value="2" data-id="choice2"></button></div>
-			<div class="button col-sm-12"><button id="btn3" value="3" data-id="choice3"></button></div>
-			<div class="button col-sm-12"><button id="btn4" value="4" data-id="choice4"></button></div>
+			<div class="button col-sm-12"><button id="btn1" value="0" data-id="choice1"></button></div>
+			<div class="button col-sm-12"><button id="btn2" value="1" data-id="choice2"></button></div>
+			<div class="button col-sm-12"><button id="btn3" value="2" data-id="choice3"></button></div>
+			<div class="button col-sm-12"><button id="btn4" value="3" data-id="choice4"></button></div>
 		</div>
 		<div id="answer" class="row col-sm-12 text-center">
 			<p id="answer-text"></p>
+			<p id="answer-desc"></p>
 			<img id="answer-image" class="img-rounded" src="">
 		</div>
 		<div id="timer" class="row text-center col-sm-12">
 			<p id="time-remaining">Time Remaining</p>
 		</div>
+		<div id="gameover" class="row text-center col-sm-12">
+			<p id="game-over">Game Over</p>
+			<p id="correct-answers"></p>
+			<p id="incorrect-answers"></p>
+			<p id="unanswered"></p>
+			<button id="btn-restart">Start Over?</button>
+		</div>		
 	</main>												
 	</div>
-	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	<script type="text/javascript" src="assets/javascript/app2.js"></script>
 </body>
 </html>
